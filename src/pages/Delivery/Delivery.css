@@ -1,0 +1,38 @@
+.delivery {
+	padding: 2rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.delivery-content {
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 2rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delivery h1 {
+	color: #333;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.delivery-info {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.delivery-info p {
+	line-height: 1.6;
+	color: #666;
+	margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+	.delivery {
+		padding: 1rem;
+	}
+	
+	.delivery-content {
+		padding: 1rem;
+	}
